@@ -1,1 +1,9 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6875059&assignment_repo_type=AssignmentRepo)
+# Overview
+The purpose of this project is to find the most optimal compisition of TCNJ's vehicle fleet. TCNJ has a variety of vehicles in its vehicle fleet that use a variety of fuels(petroleuem, electric, hydrogen) and are from a variety of years. This project will allow a user to see results of cost-benefit analysis and environmental sustainability analysis for each type of vehicle within the fleet. Ideally, this project will allow TCNJ to compose a vehicle fleet that is both finacially and environmentally sustainable. 
+
+# How to use
+
+
+# Installation
+
+

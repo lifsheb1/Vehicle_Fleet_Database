@@ -1,5 +1,0 @@
-Vehicle Type Code,Fuel_Cost,GTE_Miles,GTE_Years,Maintenence_per_mile,Depreciation,Equal_Carbon_Emissions
-PICE,0.2,120000,12,0.1,0.8,23.5
-PHYB,0.15,120000,12,0.06,0.9,
-ELEC,0.05,120000,12,0.06,0.9,0.32
-HYDR,0.05,120000,12,0.06,0.9,

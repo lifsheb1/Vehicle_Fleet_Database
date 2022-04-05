@@ -11,9 +11,10 @@ CREATE TABLE Vehicle (
 );
 
 CREATE TABLE Vehicle_Types (
+    Vehicle_Type_Code varchar NOT NULL,
     Vehicle_Type varchar(50) NOT NULL,
     Engine varchar(50) NOT NULL,
-    Anticipated_Mielage int NOT NULL, 
+    Anticipated_Mileage int NOT NULL, 
     Estimated_MPG int, 
     Initial_Cost int NOT NULL,
     Incentives int,

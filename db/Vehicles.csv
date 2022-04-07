@@ -1,0 +1,292 @@
+VIN_Number,Department,Year,Make,Model,Vehicle_Type_Code,Type,Time_Line
+1,Move Team,2017,Ford ,F350 Box truck,PICE_TH,,Current
+2,Bldg. Services,2006,Ford,Club wagon,PICE_VC,,Current
+3,Bldg. Services,2003,Ford,Club wagon,PICE_VC,,Current
+4,Bldg. Services,2002,Dodge,Ram wagon,PICE_VC,,Current
+5,Bldg. Services,1999,Ford,F250 truck,PICE_TL,,Current
+6,Bldg. Services,2002,Ford,P/U,PICE_TL,,Current
+7,Move Team,2007,Chev,12 pass van,PICE_VC,,Current
+8,Move Team,2000,Ford,club wagon,PICE_VC,,Current
+9,Access Control,2020,,CarryAll 700,PICE_LSU,,Current
+10,Access Control,2007,Dodge,mini van,PICE_VC,,Current
+11,Access Control,2006,Ford,van,PICE_VC,,Current
+12,Access Control,2002,Dodge,van,PICE_VC,,Current
+13,Mailing/Receiving,2014,Chev.,Exp Van,PICE_VC,,Current
+14,Mailing/Receiving,2004,Ford,E350,PICE_VC,,Current
+15,Mailing/Receiving,2006,Ford,E350,PICE_VC,,Current
+16,Grounds,2019,Ford,F250,PICE_TL,,Current
+17,Grounds,2019,Ford,F250,PICE_TL,,Current
+18,Grounds,2018,Ford ,F350 Mini-Dump,PICE_TH,,Current
+19,Grounds EXT,2016,Ford,F350 Rack body,PICE_TH,,Current
+20,Grounds,2015,Ford,F450 Dump,PICE_TH,,Current
+21,Grounds,2014,Ford,F250,PICE_TL,,Current
+22,Grounds EXT,2014,Ford,F150,PICE_TL,,Current
+23,Grounds,2012,Ford,F350 6.2L,PICE_TH,,Current
+24,Grounds,2011,Chevy,Colorado,PICE_TL,,Current
+25,Grounds,2008,Ford,Ranger,PICE_TL,,Current
+26,Grounds,2006,Ford,P/U,PICE_TL,,Current
+27,Grounds EXT,2005,Dodge,"2500, Ram P/U",PICE_TH,,Current
+28,Grounds,2004,Ford,P/U,PICE_TL,,Current
+29,Grounds Sup,2012,Ford,Escape,PICE_PV,,Current
+30,"Grounds, auto",2007,Ford,Crown Vic,PICE_PV,,Current
+31,Carpenter,2010,Chevy,1500 PU,PICE_TL,,Current
+32,Carpenter,2009,Ford,van,PICE_VC,,Current
+33,Carpenter,2019,,CarryAll 700,PICE_LSU,,Current
+34,Carpenter Sup,2006,Ford,Crown Vic,PICE_PV,,Current
+35,Carpenter/Roof,2020,Ford,F250 Utility,PICE_TH,,Current
+36,Const. Shop,2016,Ford,Transit Cargo,PICE_VC,,Current
+37,Const. Shop,2017,Ford,F250,PICE_TH,,Current
+38,Const. Shop,2006,Ford,E150 van,PICE_VC,,Current
+39,Const. Shop,2014,Chevy,van,PICE_VC,,Current
+40,Paint,2008,Ford,van,PICE_VC,,Current
+41,Mason,2006,Ford,van,PICE_VC,,Current
+42,Const. Shop,2009,Ford,E150,PICE_VC,,Current
+43,Electric Shop,2008,Ford,aerial,PICE_TH,,Current
+44,Electric Shop,2006,Ford,van,PICE_VC,,Current
+45,Electric Shop,2005,Dodge,Caravan,PICE_VP,,Current
+46,Electric Shop,2010,Dodge,Caravan,PICE_VP,,Current
+47,Electric Shop,2003,Dodge,Caravan,PICE_VP,,Current
+48,HVAC Shop,2016,Ford,Transit Cargo,PICE_VC,,Current
+49,HVAC Shop,2010,Chevy,1500 van,PICE_VC,,Current
+50,HVAC Shop,2009,Ford,E150,PICE_VC,,Current
+51,HVAC Shop,2009,Ford,E150,PICE_VC,,Current
+52,HVAC Shop,2008,Ford,E150,PICE_VC,,Current
+53,HVAC Shop,2006,Ford,Club wagon,PICE_VC,,Current
+54,HVAC Shop,2006,Ford,E150,PICE_VC,,Current
+55,HVAC Shop PH,2011,Ford,Escape,PICE_PV,,Current
+56,Plumbing Shop,2020,Ford,F250 Utility,PICE_TH,,Current
+57,Plumbing Shop,2016,Ford,Transit Cargo,PICE_VC,,Current
+58,Plumbing Shop,2008,Ford,E150,PICE_VC,,Current
+59,Plumbing Shop,2006,Ford,E150,PICE_VC,,Current
+60,Plumbing Shop,2000,Ford,E150,PICE_VC,,Current
+61,Plumbing Shop,2009,Ford,E150,PICE_VC,,Current
+62,Plumbing Shop,2006,Ford,E150,PICE_VC,,Current
+63,Repair,2017,Ford,Transit Connect XL,PICE_VC,,Current
+64,Repair,2014,Chevy,Express van,PICE_VC,,Current
+65,Repair,2019,,CarryAll 700,PICE_LSU,,Current
+66,HVAC Shop,2006,Ford,E150 van,PICE_VC,,Current
+67,Information Tech.,2019,Chevy,Express Cargo,PICE_VC,,Current
+68,Information Tech.,2018,Ford,Transit High Top,PICE_VC,,Current
+69,Telecommunications,2004,Ford,Ranger,PICE_TL,,Current
+70,Telecommunications,2002,Dodge,Caravan,PICE_VP,,Current
+71,Biology,1994,Mazda,B3000,PICE_TL,,Current
+72,School of Ed,2010,Dodge,Grand Caravan,PICE_VP,,Current
+73,Bonner Center,2019,Chev,Express pass van,PICE_VP,,Current
+74,Bonner Center,2017,Chev,12 pass van,PICE_VP,,Current
+75,Bonner Center,2017,Chev,12 pass van,PICE_VP,,Current
+76,Bonner Center,2006,Ford,Econ.van,PICE_VP,,Current
+77,Bonner Center,2006,Ford,Econ.van,PICE_VP,,Current
+78,Bonner Center,2003,Ford,club wagon,PICE_VP,,Current
+79,Campus PD,2018,Ford,Explorer,PICE_PSV,,Current
+80,Campus PD,2018,Ford,Explorer,PICE_PSV,,Current
+81,Campus PD,2017,Ford,Explorer,PICE_PSV,,Current
+82,Campus PD,2016,Ford,Taurus,PICE_PSV,,Current
+83,Campus PD,2015,Ford,Taurus,PICE_PSV,,Current
+84,Campus PD,2014,Ford,Taurus,PICE_PSV,,Current
+85,Campus PD,2014,Ford,Taurus,PICE_PSV,,Current
+86,Admissions,2018,Dodge,Grand Caravan,PICE_VP,,Current
+87,Fleet Loaner,2018,Dodge,Grand Caravan,PICE_VP,,Current
+88,Fleet Loaner,2014,Dodge,Caravan,PICE_VP,,Current
+89,Admissions,2014,Dodge,Caravan,PICE_VP,,Current
+90,Athletics,2018,Chevy,Express van,PICE_VP,,Current
+91,Athletics,2010,Chevy,2500 van,PICE_VP,,Current
+92,Athletics,2010,2500 van,2500 van,PICE_VP,,Current
+93,Athletics,2010,2500 van,2500 van,PICE_VP,,Current
+94,Athletics,2010,2500 van,2500 van,PICE_VP,,Current
+95,Athletics,2007,Chev,12 pass van,PICE_VP,,Current
+96,Athletics,2007,Chev,12 pass van,PICE_VP,,Current
+97,Athletics,2017,Ford,F250,PICE_TL,,Current
+98,Move Team,2032,,,PICE_TH,ICE,Proposed
+99,Bldg. Services,2022,,,ELEC_VC,EV,Proposed
+100,Bldg. Services,2022,,,ELEC_VC,EV,Proposed
+101,Bldg. Services,2021,,,,X,Proposed
+102,Bldg. Services,2022,,,ELEC_TL,EV,Proposed
+103,Bldg. Services,2022,,,ELEC_LSU,EV - LS,Proposed
+104,Move Team,2022,,,ELEC_VC,EV,Proposed
+105,Move Team,2022,,,ELEC_VC,EV,Proposed
+106,Access Control,2030,,,ELEC_LSU,EV - LS,Proposed
+107,Access Control,2022,,,ELEC_LSP,EV - LS,Proposed
+108,Access Control,2022,,,ELEC_VC,EV,Proposed
+109,Access Control,2022,,,ELEC_LSP,EV - LS,Proposed
+110,Mailing/Receiving,2029,,,ELEC_VC,EV,Proposed
+111,Mailing/Receiving,2021,,,,X,Proposed
+112,Mailing/Receiving,2022,,,ELEC_LSU,EV - LS,Proposed
+113,Grounds,2034,,,ELEC_TL,EV - LS,Proposed
+114,Grounds,2034,,,ELEC_TL,EV - LS,Proposed
+115,Grounds,2033,,,PICE_TH,ICE,Proposed
+116,Grounds EXT,2031,,,PICE_TH,ICE,Proposed
+117,Grounds,2030,,,PICE_TH,ICE,Proposed
+118,Grounds,2029,,,ELEC_TL,EV,Proposed
+119,Grounds EXT,2029,,,ELEC_LSU,EV - LS,Proposed
+120,Grounds,2027,,,ELEC_TL,EV,Proposed
+121,Grounds,2026,,,ELEC_LSU,EV - LS,Proposed
+122,Grounds,2023,,,ELEC_LSU,EV - LS,Proposed
+123,Grounds,2022,,,ELEC_TL,EV,Proposed
+124,Grounds EXT,2022,,,PICE_TH,ICE,Proposed
+125,Grounds,2021,,,,X,Proposed
+126,Grounds Sup,2021,,,ELEC_LSP,EV - LS,Proposed
+127,"Grounds, auto",2022,,,ELEC_LSU,EV - LS,Proposed
+128,Carpenter,2025,,,ELEC_TL,EV,Proposed
+129,Carpenter,2024,,,ELEC_LSU,EV - LS,Proposed
+130,Carpenter,2029,,,ELEC_LSU,EV - LS,Proposed
+131,Carpenter Sup,2022,,,ELEC_LSU,EV - LS,Proposed
+132,Carpenter/Roof,2035,,,ELEC_LSP,EV - LS,Proposed
+133,Const. Shop,2031,,,ELEC_VC,EV,Proposed
+134,Const. Shop,2032,,,ELEC_TL,EV,Proposed
+135,Const. Shop,2022,,,ELEC_VC,EV,Proposed
+136,Const. Shop,2029,,,ELEC_VC,EV,Proposed
+137,Paint,2023,,,ELEC_VC,EV,Proposed
+138,Mason,2022,,,ELEC_VC,EV,Proposed
+139,Const. Shop,2024,,,ELEC_VC,EV,Proposed
+140,Electric Shop,2023,,,PICE_TH,ICE,Proposed
+141,Electric Shop,2022,,,ELEC_LSU,EV - LS,Proposed
+142,Electric Shop,2022,,,ELEC_LSU,EV - LS,Proposed
+143,Electric Shop,2025,,,ELEC_LSU,EV - LS,Proposed
+144,Electric Shop,2022,,,ELEC_LSU,EV - LS,Proposed
+145,HVAC Shop,2031,,,ELEC_VC,EV,Proposed
+146,HVAC Shop,2025,,,ELEC_VC,EV,Proposed
+147,HVAC Shop,2024,,,ELEC_VC,EV,Proposed
+148,HVAC Shop,2024,,,ELEC_VC,EV,Proposed
+149,HVAC Shop,2022,,,ELEC_LSU,EV - LS,Proposed
+150,HVAC Shop,2022,,,ELEC_LSU,EV - LS,Proposed
+151,HVAC Shop,2021,,,,X,Proposed
+152,HVAC Shop PH,2026,,,ELEC_LSP,EV - LS,Proposed
+153,Plumbing Shop,2035,,,PICE_TH,ICE,Proposed
+154,Plumbing Shop,2031,,,ELEC_VC,EV,Proposed
+155,Plumbing Shop,2023,,,ELEC_VC,EV,Proposed
+156,Plumbing Shop,2022,,,ELEC_VC,EV,Proposed
+157,Plumbing Shop,2022,,,ELEC_LSU,EV - LS,Proposed
+158,Plumbing Shop,2024,,,ELEC_VC,EV,Proposed
+159,Plumbing Shop,2021,,,ELEC_LSU,EV - LS,Proposed
+160,Repair,2032,,,ELEC_LSU,EV - LS,Proposed
+161,Repair,2029,,,ELEC_LSU,EV - LS,Proposed
+162,Repair,2029,,,ELEC_LSU,EV - LS,Proposed
+163,HVAC Shop,2022,,,ELEC_LSU,EV - LS,Proposed
+164,Information Tech.,2034,,,ELEC_VC,EV,Proposed
+165,Information Tech.,2033,,,ELEC_VC,EV,Proposed
+166,Telecommunications,2022,,,ELEC_LSU,EV - LS,Proposed
+167,Telecommunications,2022,,,ELEC_LSU,EV - LS,Proposed
+168,Biology,,,,,X,Proposed
+169,School of Ed,,,,,X,Proposed
+170,Bonner Center,2029,,,PICE_VP,ICE,Proposed
+171,Bonner Center,2027,,,PICE_VP,ICE,Proposed
+172,Bonner Center,2027,,,PICE_VP,ICE,Proposed
+173,Bonner Center,2022,,,PICE_VP,ICE,Proposed
+174,Bonner Center,2022,,,PICE_VP,ICE,Proposed
+175,Bonner Center,2022,,,PICE_VP,ICE,Proposed
+176,Campus PD,2023,,,HYBR_PSV,HYB,Proposed
+177,Campus PD,2023,,,HYBR_PSV,HYB,Proposed
+178,Campus PD,2022,,,HYBR_PSV,HYB,Proposed
+179,Campus PD,2022,,,HYBR_PSV,HYB,Proposed
+180,Campus PD,2022,,,HYBR_PSV,HYB,Proposed
+181,Campus PD,2022,,,HYBR_PSV,HYB,Proposed
+182,Campus PD,2022,,,HYBR_PSV,HYB,Proposed
+183,Admissions,2021,,,PICE_VP,ICE,Proposed
+184,Fleet Loaner,2021,,,PICE_VP,ICE,Proposed
+185,Fleet Loaner,2021,,,PICE_VP,ICE,Proposed
+186,Admissions,2021,,,PICE_VP,ICE,Proposed
+187,Athletics,2028,,,PICE_VP,ICE,Proposed
+188,Athletics,2022,,,PICE_VP,ICE,Proposed
+189,Athletics,2022,,,PICE_VP,ICE,Proposed
+190,Athletics,2022,,,PICE_VP,ICE,Proposed
+191,Athletics,2022,,,PICE_VP,ICE,Proposed
+192,Athletics,2022,,,PICE_VP,ICE,Proposed
+193,Athletics,2022,,,PICE_VP,ICE,Proposed
+194,Athletics,2032,,,PICE_TL,ICE,Proposed
+195,Move Team,2044,,,HYDR_TH,Hydro,Future
+196,Bldg. Services,2034,,,ELEC_VC,EV,Future
+197,Bldg. Services,2034,,,ELEC_VC,EV,Future
+198,Bldg. Services,,,,,X,Future
+199,Bldg. Services,2034,,,ELEC_TL,EV,Future
+200,Bldg. Services,2034,,,ELEC_LSU,EV - LS,Future
+201,Move Team,2034,,,ELEC_VC,EV,Future
+202,Move Team,2034,,,ELEC_VC,EV,Future
+203,Access Control,2042,,,ELEC_LSU,EV - LS,Future
+204,Access Control,2034,,,ELEC_LSP,EV - LS,Future
+205,Access Control,2034,,,ELEC_VC,EV,Future
+206,Access Control,2034,,,ELEC_LSP,EV - LS,Future
+207,Mailing/Receiving,2041,,,ELEC_VC,EV,Future
+208,Mailing/Receiving,,,,,X,Future
+209,Mailing/Receiving,2034,,,ELEC_LSU,EV - LS,Future
+210,Grounds,2046,,,ELEC_TL,EV - LS,Future
+211,Grounds,2046,,,ELEC_TL,EV - LS,Future
+212,Grounds,2045,,,HYDR_TH,Hydro,Future
+213,Grounds EXT,2043,,,HYDR_TH,Hydro,Future
+214,Grounds,2042,,,HYDR_TH,Hydro,Future
+215,Grounds,2041,,,ELEC_TL,EV,Future
+216,Grounds EXT,2041,,,ELEC_LSU,EV - LS,Future
+217,Grounds,2039,,,ELEC_TL,EV,Future
+218,Grounds,2038,,,ELEC_LSU,EV - LS,Future
+219,Grounds,2035,,,ELEC_LSU,EV - LS,Future
+220,Grounds,2034,,,ELEC_TL,EV,Future
+221,Grounds EXT,2034,,,HYDR_TH,Hydro,Future
+222,Grounds,,,,,X,Future
+223,Grounds Sup,2033,,,ELEC_LSP,EV - LS,Future
+224,"Grounds, auto",2034,,,ELEC_LSU,EV - LS,Future
+225,Carpenter,2037,,,ELEC_TL,EV,Future
+226,Carpenter,2036,,,ELEC_LSU,EV - LS,Future
+227,Carpenter,2041,,,ELEC_LSU,EV - LS,Future
+228,Carpenter Sup,2034,,,ELEC_LSU,EV - LS,Future
+229,Carpenter/Roof,2047,,,ELEC_LSP,EV - LS,Future
+230,Const. Shop,2043,,,ELEC_VC,EV,Future
+231,Const. Shop,2044,,,ELEC_TL,EV,Future
+232,Const. Shop,2034,,,ELEC_VC,EV,Future
+233,Const. Shop,2041,,,ELEC_VC,EV,Future
+234,Paint,2035,,,ELEC_VC,EV,Future
+235,Mason,2034,,,ELEC_VC,EV,Future
+236,Const. Shop,2036,,,ELEC_VC,EV,Future
+237,Electric Shop,2035,,,HYDR_TH,Hydro,Future
+238,Electric Shop,2034,,,ELEC_LSU,EV - LS,Future
+239,Electric Shop,2034,,,ELEC_LSU,EV - LS,Future
+240,Electric Shop,2037,,,ELEC_LSU,EV - LS,Future
+241,Electric Shop,2034,,,ELEC_LSU,EV - LS,Future
+242,HVAC Shop,2043,,,ELEC_VC,EV,Future
+243,HVAC Shop,2037,,,ELEC_VC,EV,Future
+244,HVAC Shop,2036,,,ELEC_VC,EV,Future
+245,HVAC Shop,2036,,,ELEC_VC,EV,Future
+246,HVAC Shop,2034,,,ELEC_LSU,EV - LS,Future
+247,HVAC Shop,2034,,,ELEC_LSU,EV - LS,Future
+248,HVAC Shop,,,,,X,Future
+249,HVAC Shop PH,2038,,,ELEC_LSP,EV - LS,Future
+250,Plumbing Shop,2047,,,HYDR_TH,Hydro,Future
+251,Plumbing Shop,2043,,,ELEC_VC,EV,Future
+252,Plumbing Shop,2035,,,ELEC_VC,EV,Future
+253,Plumbing Shop,2034,,,ELEC_VC,EV,Future
+254,Plumbing Shop,2034,,,ELEC_LSU,EV - LS,Future
+255,Plumbing Shop,2036,,,ELEC_VC,EV,Future
+256,Plumbing Shop,2033,,,ELEC_LSU,EV - LS,Future
+257,Repair,2044,,,ELEC_LSU,EV - LS,Future
+258,Repair,2041,,,ELEC_LSU,EV - LS,Future
+259,Repair,2041,,,ELEC_LSU,EV - LS,Future
+260,HVAC Shop,2034,,,ELEC_LSU,EV - LS,Future
+261,Information Tech.,2046,,,ELEC_VC,EV,Future
+262,Information Tech.,2045,,,ELEC_VC,EV,Future
+263,Telecommunications,2034,,,ELEC_LSU,EV - LS,Future
+264,Telecommunications,2034,,,ELEC_LSU,EV - LS,Future
+265,Biology,,,,,X,Future
+266,School of Ed,,,,,X,Future
+267,Bonner Center,2041,,,ELEC_VP,EV,Future
+268,Bonner Center,2039,,,ELEC_VP,EV,Future
+269,Bonner Center,2039,,,ELEC_VP,EV,Future
+270,Bonner Center,2034,,,ELEC_VP,EV,Future
+271,Bonner Center,2034,,,ELEC_VP,EV,Future
+272,Bonner Center,2034,,,ELEC_VP,EV,Future
+273,Campus PD,2035,,,ELEC_PSV,EV,Future
+274,Campus PD,2035,,,ELEC_PSV,EV,Future
+275,Campus PD,2034,,,ELEC_PSV,EV,Future
+276,Campus PD,2034,,,ELEC_PSV,EV,Future
+277,Campus PD,2034,,,ELEC_PSV,EV,Future
+278,Campus PD,2034,,,ELEC_PSV,EV,Future
+279,Campus PD,2034,,,ELEC_PSV,EV,Future
+280,Admissions,2033,,,ELEC_VP,EV,Future
+281,Fleet Loaner,2033,,,ELEC_VP,EV,Future
+282,Fleet Loaner,2033,,,ELEC_VP,EV,Future
+283,Admissions,2033,,,ELEC_VP,EV,Future
+284,Athletics,2040,,,ELEC_VP,EV,Future
+285,Athletics,2034,,,ELEC_VP,EV,Future
+286,Athletics,2034,,,ELEC_VP,EV,Future
+287,Athletics,2034,,,ELEC_VP,EV,Future
+288,Athletics,2034,,,ELEC_VP,EV,Future
+289,Athletics,2034,,,ELEC_VP,EV,Future
+290,Athletics,2034,,,ELEC_VP,EV,Future
+291,Athletics,2044,,,ELEC_TL,EV,Future

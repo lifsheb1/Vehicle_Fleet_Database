@@ -5,7 +5,6 @@ CREATE TABLE Vehicle (
     Department varchar(50) NOT NULL,
     VIN_Number int PRIMARY KEY,
     Yearv int NOT NULL,
-    Year_Incorporated int NOT NULL,
     Vehicle_Type_Code int NOT NULL,
     Time_Line varchar(50) NOT NULL
 );
@@ -25,8 +24,8 @@ CREATE TABLE Vehicle_Types (
     Battery_Replacement int NOT NULL,
     Insurance int NOT NULL,
     Lifetime_Cost int NOT NULL,
-    Annual_Cost int NOT NULL,
-    GHC_Emissions int,
+    Annual_Cost float NOT NULL,
+    GHC_Emissions float,
     Vehicle_Type_Code int REFERENCES Vehicle,
     PRIMARY KEY (Vehicle_Type_Code)
 );
@@ -38,7 +37,7 @@ CREATE TABLE Variables (
     GTE_Miles int NOT NULL,
     GTE_Years int NOT NULL,
     Maintenance_Per_Mile numeric(3,2) NOT NULL,
-    Depreciation int NOT NULL,
+    Depreciation float NOT NULL,
     Equal_Carbon_Emission numeric(4,2),
     Vehicle_Type_Code int REFERENCES Vehicle_Types,
     PRIMARY KEY (Vehicle_Type_Code)

@@ -46,7 +46,10 @@ variableHeader = next(variableCSV)
 
 #insert variables into database
 for row in variableCSV:
-  dbCursor.execute('INSERT INTO Variables(Vehicle_Type_Code, Fuel_Cost, GTE_Miles, GTE_Years, Maintenance_Per_Mile, Depreciation,Equal_Carbon_Emission) VALUES (%s, %s, %s, %s, %s, %s, %s)', (row[0], row[1], row[2], row[3], row[4], row[5], row[6]))
-
+  try: #carbon emissions and fuel cost are given
+    float(row[6])   
+    dbCursor.execute('INSERT INTO Variables(Vehicle_Type_Code, Fuel_Cost, GTE_Miles, GTE_Years, Maintenance_Per_Mile, Depreciation,Equal_Carbon_Emission) VALUES (%s, %s, %s, %s, %s, %s, %s)', (row[0], row[1], row[2], row[3], row[4], row[5], row[6]))
+  except: #carbon emissions are not given
+    dbCursor.execute('INSERT INTO Variables(Vehicle_Type_Code, Fuel_Cost, GTE_Miles, GTE_Years, Maintenance_Per_Mile, Depreciation,Equal_Carbon_Emission) VALUES (%s, %s, %s, %s, %s, %s, %s)', (row[0], row[1], row[2], row[3], row[4], row[5], 0))    
 dbCursor.close()
 dbConnection.close()

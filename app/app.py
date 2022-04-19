@@ -44,17 +44,26 @@ app = Flask(__name__)
 def form():
     return render_template('my-form.html')
 
-# handle venue POST and serve result web page
+# handle make POST and serve result web page
 @app.route('/make-handler', methods=['POST'])
 def make_handler():
-    rows = connect("SELECT Make, Model, Initial_Cost, Annual_Cost, Lifetime_Cost, GHG_Emissions FROM view1 WHERE make = '" + request.form['make'] + "';")
-    return render_template('my-result.html', rows=rows)
+    rows = connect("SELECT Make, Model, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions FROM view1 WHERE make = '" + request.form['make'] + "';")
+    heads = ['Make', 'Model', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions']
+    return render_template('my-result.html', rows=rows, heads=heads)
 
-# handle query POST and serve result web page
-@app.route('/query-handler', methods=['POST'])
-def query_handler():
-    rows = connect(request.form['query'])
-    return render_template('my-result.html', rows=rows)
+# handle engine POST and serve result web page
+@app.route('/engine-handler', methods=['POST'])
+def engine_handler():
+    rows = connect("SELECT Make, Model, Yearv, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions FROM view1 WHERE engine = '" + request.form['engine'] + "';")
+    heads = ['Make', 'Model', 'Year', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions']
+    return render_template('my-result.html', rows=rows, heads=heads)
+
+# handle emissions POST and serve result web page
+@app.route('/emissions-handler', methods=['POST'])
+def emissions_handler():
+    rows = connect("SELECT Make, Model, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions, Time_Line FROM view1 ORDER BY GHG_Emissions ASC;")
+    heads = ['Make', 'Model', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions', 'Timeline']
+    return render_template('my-result.html', rows=rows, heads=heads)
 
 if __name__ == '__main__':
     app.run(debug = True)

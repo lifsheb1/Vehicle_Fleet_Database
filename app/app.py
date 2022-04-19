@@ -54,8 +54,8 @@ def make_handler():
 # handle engine POST and serve result web page
 @app.route('/engine-handler', methods=['POST'])
 def engine_handler():
-    rows = connect("SELECT Make, Model, Yearv, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions FROM view1 WHERE engine = '" + request.form['engine'] + "';")
-    heads = ['Make', 'Model', 'Year', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions']
+    rows = connect("SELECT Make, Model, Engine, Yearv, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions FROM view1 WHERE engine = '" + request.form['engine'] + "';")
+    heads = ['Make', 'Model', 'Engine', 'Year', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions']
     return render_template('my-result.html', rows=rows, heads=heads)
 
 # handle emissions POST and serve result web page
@@ -63,6 +63,13 @@ def engine_handler():
 def emissions_handler():
     rows = connect("SELECT Make, Model, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions, Time_Line FROM view1 ORDER BY GHG_Emissions ASC;")
     heads = ['Make', 'Model', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions', 'Timeline']
+    return render_template('my-result.html', rows=rows, heads=heads)
+
+# handle year POST and serve result web page
+@app.route('/year-handler', methods=['POST'])
+def year_handler():
+    rows = connect("SELECT Make, Model, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions, Yearv, Time_Line FROM view1 ORDER BY Yearv ASC;")
+    heads = ['Make', 'Model', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions', 'Year', 'Timeline']
     return render_template('my-result.html', rows=rows, heads=heads)
 
 if __name__ == '__main__':

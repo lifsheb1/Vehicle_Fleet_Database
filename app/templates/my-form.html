@@ -2,33 +2,38 @@
 
 <html>
     <head>
-        <title>Flask Example Input Form</title>
+        <title>Vehicle Fleet Database</title>
     </head>
     <body>
-	    <h3>Flask|Python|Psycopg2|PostgreSQL</h3>
 
-	    <h4>Example 1</h4>
+	    <h4>Choose a Vehicle Make</h4>
         <form action="/make-handler" method="POST">
             <div>
-                Find all the vehicles with this make
+                View all vehicles in the fleet with your choice
                 <input type="text" name="make">
             </div>
                 <input type="submit" value="Submit">
         </form>
 
-        <h4>Example 2</h4>
+        <h4>Choose an Engine Type</h4>
         <form action="/engine-handler" method="POST">
             <div>
-                Find all the vehicles with this engine
+                View all vehicles in the fleet with your choice
                 <input type="text" name="engine">
             </div>
                 <input type="submit" value="Submit">
         </form>
 
-        <h4>Example 3</h4>
+        <h4>Order By Different Attributes</h4>
         <form action="/emissions-handler" method="POST">
             <div>
-                Sort all vehicles by amount of emissions
+                Organize all vehicles by amount of emissions
+            </div>
+                <input type="submit" value="Submit">
+        </form>
+        <form action="/year-handler" method="POST">
+            <div>
+                Organize all vehicles by year
             </div>
                 <input type="submit" value="Submit">
         </form>

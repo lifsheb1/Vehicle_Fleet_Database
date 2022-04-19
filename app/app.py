@@ -44,16 +44,22 @@ app = Flask(__name__)
 def form():
     return render_template('my-form.html')
 
-# handle venue POST and serve result web page
+# handle make POST and serve result web page
 @app.route('/make-handler', methods=['POST'])
 def make_handler():
     rows = connect("SELECT Make, Model, Initial_Cost, Annual_Cost, Lifetime_Cost, GHG_Emissions FROM view1 WHERE make = '" + request.form['make'] + "';")
     return render_template('my-result.html', rows=rows)
 
-# handle query POST and serve result web page
-@app.route('/query-handler', methods=['POST'])
-def query_handler():
-    rows = connect(request.form['query'])
+# handle engine POST and serve result web page
+@app.route('/engine-handler', methods=['POST'])
+def engine_handler():
+    rows = connect("SELECT Make, Model, Year, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions FROM view1 WHERE engine = '" + request.form['engine'] + "';")
+    return render_template('my-result.html', rows=rows)
+
+# handle emissions POST and serve result web page
+@app.route('/emissions-handler', methods=['POST'])
+def emissions_handler():
+    rows = connect("SELECT Make, Model, Initial_Cost, Annual_Cost, Lifetime_Cost, GHG_Emissions, Timeline FROM view1 ORDER BY ASC GHG_Emissions;")
     return render_template('my-result.html', rows=rows)
 
 if __name__ == '__main__':

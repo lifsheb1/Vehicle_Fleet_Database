@@ -16,16 +16,24 @@
                 <input type="submit" value="Submit">
         </form>
 
-	    <h4>Example 2</h4>
-        <form action="/query-handler" method="POST">
+        <h4>Example 2</h4>
+        <form action="/engine-handler" method="POST">
             <div>
-		        Enter any PostgreSQL command, terminated with a semicolon
-                <br />
-	            Example query: SELECT * FROM countries;
-		        <input type="text" name="query">
+                Find all the vehicles with this engine
+                <input type="text" name="engine">
             </div>
                 <input type="submit" value="Submit">
         </form>
+
+        <h4>Example 3</h4>
+        <form action="/emissions-handler" method="POST">
+            <div>
+                Sort all vehicles by amount of emissions
+            </div>
+                <input type="submit" value="Submit">
+        </form>
+
+	    
     </body>
 
     <!-- minimal styling -->

@@ -1,55 +1,5 @@
 #! /usr/bin/python3
 
-"""
-This is an example Flask | Python | Psycopg2 | PostgreSQL
-application that connects to the 7dbs database from Chapter 2 of
-_Seven Databases in Seven Weeks Second Edition_
-by Luc Perkins with Eric Redmond and Jim R. Wilson.
-The CSC 315 Virtual Machine is assumed.
-
-John DeGood
-degoodj@tcnj.edu
-The College of New Jersey
-Spring 2020
-
-----
-
-One-Time Installation
-
-You must perform this one-time installation in the CSC 315 VM:
-
-# install python pip and psycopg2 packages
-sudo pacman -Syu
-sudo pacman -S python-pip python-psycopg2
-
-# install flask
-pip install flask
-
-----
-
-Usage
-
-To run the Flask application, simply execute:
-
-export FLASK_APP=app.py 
-flask run
-# then browse to http://127.0.0.1:5000/
-
-----
-
-References
-
-Flask documentation:  
-https://flask.palletsprojects.com/  
-
-Psycopg documentation:
-https://www.psycopg.org/
-
-This example code is derived from:
-https://www.postgresqltutorial.com/postgresql-python/
-https://scoutapm.com/blog/python-flask-tutorial-getting-started-with-flask
-https://www.geeksforgeeks.org/python-using-for-loop-in-flask/
-"""
 
 import psycopg2
 from config import config
@@ -94,17 +44,33 @@ app = Flask(__name__)
 def form():
     return render_template('my-form.html')
 
-# handle venue POST and serve result web page
-@app.route('/venue-handler', methods=['POST'])
-def venue_handler():
-    rows = connect('SELECT venue_id, title FROM events WHERE venue_id = ' + request.form['venue_id'] + ';')
-    return render_template('my-result.html', rows=rows)
+# handle make POST and serve result web page
+@app.route('/make-handler', methods=['POST'])
+def make_handler():
+    rows = connect("SELECT Make, Model, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions FROM view1 WHERE make = '" + request.form['make'] + "';")
+    heads = ['Make', 'Model', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions']
+    return render_template('my-result.html', rows=rows, heads=heads)
 
-# handle query POST and serve result web page
-@app.route('/query-handler', methods=['POST'])
-def query_handler():
-    rows = connect(request.form['query'])
-    return render_template('my-result.html', rows=rows)
+# handle engine POST and serve result web page
+@app.route('/engine-handler', methods=['POST'])
+def engine_handler():
+    rows = connect("SELECT Make, Model, Engine, Yearv, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions FROM view1 WHERE engine = '" + request.form['engine'] + "';")
+    heads = ['Make', 'Model', 'Engine', 'Year', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions']
+    return render_template('my-result.html', rows=rows, heads=heads)
+
+# handle emissions POST and serve result web page
+@app.route('/emissions-handler', methods=['POST'])
+def emissions_handler():
+    rows = connect("SELECT Make, Model, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions, Time_Line FROM view1 ORDER BY GHG_Emissions ASC;")
+    heads = ['Make', 'Model', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions', 'Timeline']
+    return render_template('my-result.html', rows=rows, heads=heads)
+
+# handle year POST and serve result web page
+@app.route('/year-handler', methods=['POST'])
+def year_handler():
+    rows = connect("SELECT Make, Model, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions, Yearv, Time_Line FROM view1 ORDER BY Yearv ASC;")
+    heads = ['Make', 'Model', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions', 'Year', 'Timeline']
+    return render_template('my-result.html', rows=rows, heads=heads)
 
 if __name__ == '__main__':
     app.run(debug = True)

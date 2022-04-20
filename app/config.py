@@ -1,14 +1,5 @@
 #!/usr/bin/python
 
-"""
-CSC 315
-Spring 2020
-John DeGood
-
-This code is from:
-https://www.postgresqltutorial.com/postgresql-python/
-"""
-
 from configparser import ConfigParser
  
  

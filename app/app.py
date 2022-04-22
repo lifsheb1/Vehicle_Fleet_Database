@@ -44,6 +44,11 @@ app = Flask(__name__)
 def form():
     return render_template('my-form.html')
 
+#handle navigation to about page
+@app.route('/about-page', methods=['GET','POST'])
+def aboutPageRender():
+    return render_template('about-page.html')
+
 # handle make POST and serve result web page
 @app.route('/make-handler', methods=['POST'])
 def make_handler():

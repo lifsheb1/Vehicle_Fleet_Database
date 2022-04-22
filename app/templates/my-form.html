@@ -1,0 +1,54 @@
+<!-- /templates/my-form.html-->
+
+<html>
+    <head>
+        <title>Vehicle Fleet Database</title>
+    </head>
+    <body>
+
+	    <h4>Choose a Vehicle Make</h4>
+        <form action="/make-handler" method="POST">
+            <div>
+                View all vehicles in the fleet with your choice
+                <input type="text" name="make">
+            </div>
+                <input type="submit" value="Submit">
+        </form>
+
+        <h4>Choose an Engine Type</h4>
+        <form action="/engine-handler" method="POST">
+            <div>
+                View all vehicles in the fleet with your choice
+                <input type="text" name="engine">
+            </div>
+                <input type="submit" value="Submit">
+        </form>
+
+        <h4>Order By Different Attributes</h4>
+        <form action="/emissions-handler" method="POST">
+            <div>
+                Organize all vehicles by amount of emissions
+            </div>
+                <input type="submit" value="Submit">
+        </form>
+        <form action="/year-handler" method="POST">
+            <div>
+                Organize all vehicles by year
+            </div>
+                <input type="submit" value="Submit">
+        </form>
+
+	    
+    </body>
+
+    <!-- minimal styling -->
+    <style>
+        form {
+            margin: 1%;
+        }
+
+        div {
+            margin: 1% 0;
+        }
+    </style>
+</html>

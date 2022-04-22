@@ -9,8 +9,14 @@
 	    <h4>Choose a Vehicle Make</h4>
         <form action="/make-handler" method="POST">
             <div>
-                View all vehicles in the fleet with your choice
-                <input type="text" name="make">
+                <label>View all vehicles in the fleet with your choice</label>
+                <select name = "make" id = "vehicle_makes"> 
+                    <option value = "Ford">Ford</option>
+                    <option value = "Chevy">Chevy</option>
+                    <option value = "Dodge">Dodge</option>
+                    <option value = "2500 van">2500 van</option>
+                </select>
+
             </div>
                 <input type="submit" value="Submit">
         </form>
@@ -18,8 +24,12 @@
         <h4>Choose an Engine Type</h4>
         <form action="/engine-handler" method="POST">
             <div>
-                View all vehicles in the fleet with your choice
-                <input type="text" name="engine">
+                <label>View all vehicles in the fleet with your choice
+                    <select name = "engine" id = "vehicle_engines"> 
+                        <option value = "ICE">ICE</option>
+                        <option value = "Zero">Zero</option>
+                        <option value = "Hybrid">Hybrid</option>
+                    </select>
             </div>
                 <input type="submit" value="Submit">
         </form>

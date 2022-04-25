@@ -3,16 +3,24 @@ The purpose of this project is to find the most optimal compisition of TCNJ's ve
 
 # How to use
 
+To run the Flask application, simply execute:
+
+```
+export FLASK_APP=app.py
+flask run
+# then browse to http://127.0.0.1:5000/
+```
 
 # Installation
 
-install python pip and psycopg2 packages
+You must perform this one-time installation in the CSC 315 VM:
+
+```
+# install python pip and psycopg2 packages
 sudo pacman -Syu
 sudo pacman -S python-pip python-psycopg2
 
-install flask
+# install flask
 pip install flask
-
-export FLASK_APP=app.py
-flask run
-then browse to http://127.0.0.1:5000/
+```
+You must also clone the repository with the following commands: 

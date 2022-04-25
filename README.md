@@ -24,3 +24,7 @@ sudo pacman -S python-pip python-psycopg2
 pip install flask
 ```
 You must also clone the repository with the following commands: 
+
+```
+git clone https://github.com/TCNJ-degoodj/cab-project-02-7.git
+```

@@ -1,0 +1,46 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(vehicleimg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-size: large;
+}
+.menu-bar
+{
+    background: rgb(0, 85, 100);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(12, 10, 10);
+}
+.menu-bar ul li{
+    width: 100px;
+    margin: 5px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(5, 3, 3);
+}
+.anal-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #b4d2eb;
+    border-radius: 3px;
+
+}
+
+

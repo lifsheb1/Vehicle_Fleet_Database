@@ -3,9 +3,17 @@
 <html>
     <head>
         <title>Vehicle Fleet Database</title>
+        <link rel = "stylesheet" type = "text/css" href = "{{url_for('static', filename = 'style.css')}}">
+
     </head>
-    <body>
-        <a href = about-page>About page</a>
+    <body text = "white">
+        <div class = "menu-bar">
+    <ul> 
+        <li class = "active"><a href = "#">Analyze</a></li>
+        <li><a href = about-page>About</a></li>
+        
+    </ul>
+    </div>
 	    <h4>Choose a Vehicle Make</h4>
         <form action="/make-handler" method="POST">
             <div>
@@ -20,7 +28,7 @@
             </div>
                 <input type="submit" value="Submit">
         </form>
-
+        <br>
         <h4>Choose an Engine Type</h4>
         <form action="/engine-handler" method="POST">
             <div>
@@ -33,7 +41,7 @@
             </div>
                 <input type="submit" value="Submit">
         </form>
-
+        <br>
         <h4>Order By Different Attributes</h4>
         <form action="/emissions-handler" method="POST">
             <div>
@@ -43,12 +51,14 @@
         </form>
         <form action="/year-handler" method="POST">
             <div>
+                <br>
                 Organize all vehicles by year
             </div>
                 <input type="submit" value="Submit">
         </form>
+        
 
-	    
+
     </body>
 
     <!-- minimal styling -->

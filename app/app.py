@@ -66,14 +66,14 @@ def engine_handler():
 # handle emissions POST and serve result web page
 @app.route('/emissions-handler', methods=['POST'])
 def emissions_handler():
-    rows = connect("SELECT Make, Model, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions, Time_Line FROM view1 ORDER BY GHG_Emissions ASC;")
+    rows = connect("SELECT Make, Model, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions, Time_Line FROM view1 WHERE GHG_Emissions BETWEEN " + request.form['lowEmission'] + "AND " + request.form['highEmission'] + "ORDER BY GHG_Emissions;")
     heads = ['Make', 'Model', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions', 'Timeline']
     return render_template('my-result.html', rows=rows, heads=heads)
 
 # handle year POST and serve result web page
 @app.route('/year-handler', methods=['POST'])
 def year_handler():
-    rows = connect("SELECT Make, Model, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions, Yearv, Time_Line FROM view1 ORDER BY Yearv ASC;")
+    rows = connect("SELECT Make, Model, Initial_Cost, Lifetime_Cost, Annual_Cost, GHG_Emissions, Yearv, Time_Line FROM view1 WHERE Yearv BETWEEN " + request.form['startYear'] + "AND " + request.form['endYear'] + "ORDER BY Yearv;")
     heads = ['Make', 'Model', 'Initial Cost', 'Lifetime Cost', 'Annual Cost', 'GHG_Emissions', 'Year', 'Timeline']
     return render_template('my-result.html', rows=rows, heads=heads)
 

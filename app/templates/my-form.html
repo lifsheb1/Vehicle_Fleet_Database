@@ -47,12 +47,24 @@
             <div>
                 Organize all vehicles by amount of emissions
             </div>
+                Choose lowest emissions value
+                <input type = "text" name = "lowEmission">
+                <br>
+                Choose highest emissions value
+                <input type = "text" name = "highEmission">
+                <br>
                 <input type="submit" value="Submit">
         </form>
         <form action="/year-handler" method="POST">
             <div>
-                <br>
                 Organize all vehicles by year
+            </div>
+                Choose start year
+                <input type = "text" name = "startYear">
+                <br>
+                Choose end year
+                <input type = "text" name = "endYear">
+                <br>
             </div>
                 <input type="submit" value="Submit">
         </form>

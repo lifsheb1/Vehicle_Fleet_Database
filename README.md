@@ -6,4 +6,13 @@ The purpose of this project is to find the most optimal compisition of TCNJ's ve
 
 # Installation
 
+install python pip and psycopg2 packages
+sudo pacman -Syu
+sudo pacman -S python-pip python-psycopg2
 
+install flask
+pip install flask
+
+export FLASK_APP=app.py
+flask run
+then browse to http://127.0.0.1:5000/

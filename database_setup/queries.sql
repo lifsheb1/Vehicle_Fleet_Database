@@ -1,3 +1,6 @@
+/* Practice queries for the app
+Nicole Kondrk*/
+
 SELECT Initial_Cost, Annual_Cost, Lifetime_Cost, GHG_Emissions
 FROM view1
 WHERE make ILIKE 'ford%' AND model ILIKE 'explorer%';

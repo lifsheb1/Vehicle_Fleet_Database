@@ -1,3 +1,7 @@
+# general controller for the entire app
+# Nicole Kondrk
+
+
 #! /usr/bin/python3
 
 

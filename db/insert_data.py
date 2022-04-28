@@ -1,3 +1,6 @@
+#populate the database with Paul Romano's data
+#Benjamin Lifshey
+
 import csv 
 import psycopg2
 

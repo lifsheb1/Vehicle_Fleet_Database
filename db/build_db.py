@@ -1,3 +1,6 @@
+#file that builds the database
+#Benjamin Lifshey
+
 import psycopg2
 
 connection = psycopg2.connect(database="postgres", user='postgres', password='test')

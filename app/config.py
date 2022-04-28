@@ -1,3 +1,5 @@
+# Configuration page for the app, nothing modified from 7dbs template
+
 #!/usr/bin/python
 
 from configparser import ConfigParser
